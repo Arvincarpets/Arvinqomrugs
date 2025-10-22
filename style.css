@@ -1,0 +1,149 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1a0000;
+  color: #f8d76e;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #660000, #990000);
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  color: #f8d76e;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #f8d76e;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: url('background-rug.jpg') center/cover no-repeat;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #f8d76e;
+  color: #660000;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #990000;
+}
+
+/* Products */
+.products {
+  text-align: center;
+  padding: 70px 20px;
+  background: #2b0000;
+}
+
+.products h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #f8d76e;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.product-card {
+  background: #400000;
+  border: 2px solid #f8d76e;
+  border-radius: 12px;
+  width: 280px;
+  padding: 20px;
+  transition: 0.4s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(248, 215, 110, 0.5);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* About & Contact */
+.about, .contact {
+  padding: 60px 20px;
+  background: #330000;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #660000;
+  color: #f8d76e;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
